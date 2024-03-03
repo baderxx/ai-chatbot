@@ -16,8 +16,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "login-gradient":
-          "conic-gradient(from 202.48deg at 81.78% 23.22%, #4629F2 0deg, #13C6FF 125.63deg, #B94DFB 215.62deg, #FF53EE 294.38deg, #F3B960 360deg)",
+        "text-gradient":
+          "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 16.23%, rgba(255, 255, 255, 0.28) 103.92%)",
       },
       transitionProperty: {
         "max-height": "max-height",
