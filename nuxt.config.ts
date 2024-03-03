@@ -13,6 +13,13 @@ export default defineNuxtConfig({
   },
   modules: [
     [
+      "nuxt-mdi",
+      {
+        componentName: "icon",
+        defaultSize: "1.5rem",
+      },
+    ],
+    [
       "@nuxtjs/i18n",
       {
         ...i18nConfig,

@@ -15,6 +15,10 @@ export default {
       sans: ["TT Commons", ...fontFamily.sans],
     },
     extend: {
+      backgroundImage: {
+        "login-gradient":
+          "conic-gradient(from 202.48deg at 81.78% 23.22%, #4629F2 0deg, #13C6FF 125.63deg, #B94DFB 215.62deg, #FF53EE 294.38deg, #F3B960 360deg)",
+      },
       transitionProperty: {
         "max-height": "max-height",
       },
