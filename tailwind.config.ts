@@ -12,7 +12,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ["TT Commons", ...fontFamily.sans],
+      sans: ["Mier A", ...fontFamily.sans],
     },
     extend: {
       backgroundImage: {

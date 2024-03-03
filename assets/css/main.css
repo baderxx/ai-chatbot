@@ -1,4 +1,61 @@
-@import url('https://fonts.cdnfonts.com/css/tt-commons');
+@font-face {
+  font-family: "Mier A";
+  src: url("~/assets/fonts/mier-a-book.eot");
+  src:
+    local("Mier A Book"),
+    local("MierA-Book"),
+    url("~/assets/fonts/mier-a-book.eot?#iefix") format("embedded-opentype"),
+    url("~/assets/fonts/mier-a-book.woff2") format("woff2"),
+    url("~/assets/fonts/mier-a-book.woff") format("woff"),
+    url("~/assets/fonts/mier-a-book.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mier A";
+  src: url("~/assets/fonts/mier-a-demi-bold.eot");
+  src:
+    local("Mier A DemiBold"),
+    local("MierA-DemiBold"),
+    url("~/assets/fonts/mier-a-demi-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("~/assets/fonts/mier-a-demi-bold.woff2") format("woff2"),
+    url("~/assets/fonts/mier-a-demi-bold.woff") format("woff"),
+    url("~/assets/fonts/mier-a-demi-bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Mier A";
+  src: url("~/assets/fonts/mier-a-bold.eot");
+  src:
+    local("Mier A Bold"),
+    local("MierA-Bold"),
+    url("~/assets/fonts/mier-a-bold.eot?#iefix") format("embedded-opentype"),
+    url("~/assets/fonts/mier-a-bold.woff2") format("woff2"),
+    url("~/assets/fonts/mier-a-bold.woff") format("woff"),
+    url("~/assets/fonts/mier-a-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mier A";
+  src: url("~/assets/fonts/mier-a-book-italic.eot");
+  src:
+    local("Mier A Book Italic"),
+    local("MierA-BookItalic"),
+    url("~/assets/fonts/mier-a-book-italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("~/assets/fonts/mier-a-book-italic.woff2") format("woff2"),
+    url("~/assets/fonts/mier-a-book-italic.woff") format("woff"),
+    url("~/assets/fonts/mier-a-book-italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
