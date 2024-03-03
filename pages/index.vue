@@ -71,12 +71,81 @@ const { t } = useI18n();
                 </div>
               </div>
             </div>
-            <div class="col-span-2">Buttons</div>
+            <div class="col-span-2 place-self-center self-start">
+              <button
+                class="mb-2 flex items-center justify-between rounded-full border border-gray-100 bg-gray-300 bg-opacity-20 bg-clip-padding px-2 py-2 backdrop-blur-lg backdrop-filter"
+              >
+                <icon icon="mdiSquareEditOutline" class="text-2xl" />
+              </button>
+              <button
+                class="mb-2 flex flex-col items-center justify-between rounded-full border border-gray-100 bg-gray-300 bg-opacity-20 bg-clip-padding px-2 py-5 backdrop-blur-lg backdrop-filter"
+              >
+                <icon icon="mdiThumbUpOutline" class="text-2xl" />
+                <divider class="my-2" />
+                <icon icon="mdiThumbDownOutline" class="text-2xl" />
+                <divider class="my-2" />
+                <icon icon="mdiContentCopy" class="text-2xl" />
+              </button>
+              <button
+                class="flex items-center justify-between rounded-full border border-gray-100 bg-gray-300 bg-opacity-20 bg-clip-padding px-2 py-2 backdrop-blur-lg backdrop-filter"
+              >
+                <icon icon="mdiDotsVertical" class="text-2xl" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="h-lvh w-full p-20">
-        <div>asda what aht</div>
+      <div class="grid h-lvh w-full content-center p-20">
+        <div class="mx-auto grid max-w-lg grid-cols-1">
+          <div class="mb-12 text-center">
+            <h1 class="mb-3 text-3xl font-semibold">
+              Sign up free with {{ $t("appName") }}
+            </h1>
+            <p class="text-md text-gray-500">
+              Empower your experience, sign up for a free account today
+            </p>
+          </div>
+          <div class="grid grid-cols-1 gap-4">
+            <form-text-field
+              label="Email Address"
+              placeholder="ex. email.example.com"
+            />
+            <form-text-field label="Password" placeholder="Enter password" />
+          </div>
+          <p class="mb-5 mt-8 text-center text-sm">
+            By registering for an account, you are consenting to our
+            <a href="#" class="text-[#5661F6]">Terms of Service</a> and
+            confirming that you have reviewed and accepted the
+            <a href="#" class="text-[#5661F6]">Global Privacy Statement</a>.
+          </p>
+          <button
+            class="w-full rounded-full bg-[#5661F6] px-5 py-3.5 text-white"
+          >
+            Get started free
+          </button>
+          <p class="text-md mb-4 mt-6 text-center">
+            Already have an account?
+            <a href="#" class="text-[#5661F6]">Login</a>.
+          </p>
+          <div class="flex items-center justify-between">
+            <hr class="w-full" />
+            <span
+              class="block shrink-0 px-5 text-center text-sm font-thin text-gray-400"
+              >Or better yet..</span
+            >
+            <hr class="w-full" />
+          </div>
+          <button
+            class="my-4 w-full rounded-full border border-gray-200 px-5 py-3.5 text-black"
+          >
+            Continue with Google
+          </button>
+          <button
+            class="w-full rounded-full border border-gray-200 px-5 py-3.5 text-black"
+          >
+            Continue with Apple
+          </button>
+        </div>
       </div>
     </div>
   </div>
