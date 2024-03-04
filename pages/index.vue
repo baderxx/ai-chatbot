@@ -8,7 +8,7 @@ const { t } = useI18n();
   <div class="h-lvh w-lvw">
     <div class="grid grid-cols-2">
       <div
-        class="relative h-lvh overflow-hidden bg-[url('~/assets/img/chat-bg.webp')] bg-cover"
+        class="relative grid h-lvh content-center overflow-hidden bg-[url('~/assets/img/chat-bg.webp')] bg-cover"
       >
         <div class="relative z-10 p-24 text-white">
           <h1 class="mb-5 text-6xl font-semibold">
